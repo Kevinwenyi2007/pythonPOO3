@@ -15,6 +15,20 @@ class NPC:
         self.point_de_vie = 20
         self.profession = None
 
+    def afficher(self):
+        print('la force est',self.force)
+        print('la agilite est', self.agilite)
+        print('la constitution est', self.constitution)
+        print('la intelligence est', self.intelligence)
+        print('la sagesse est', self.sagesse)
+        print('le charisme est', self.charisme)
+        print('la armure est', self.armure)
+        print('le nom est', self.nom)
+        print('le race est', self.race)
+        print('espece est', self.espece)
+        print('le point de vie est', self.point_de_vie)
+        print('la profession est', self.profession)
+
 def rouler_des():
 
     de1 = random.randint(1,6)
